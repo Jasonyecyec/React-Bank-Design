@@ -9,7 +9,7 @@ import styles  from "./style";
 //   Clients,
 //   CTA,
 //   Footer,Navbar,Hero} from './components'
-import {Navbar,Stats,Hero} from './components'
+import {Navbar,Stats,Hero,Business,Billing,CardDeal} from './components'
 
 const App = ()=>{
   // document.body.style.overflowX = "hidden"
@@ -35,11 +35,11 @@ const App = ()=>{
       {/* Components */}
         <div className={`bg-primary ${styles.flexStart} ${styles.paddingX}`}>
           <div className={`${styles.boxWidth}`}>
-              {/* <Stats/>
+              <Stats/>
               <Business/>
               <Billing/>
               <CardDeal/>
-              <Testimonials/> */}
+              {/* <Testimonials/> */}
               
           </div>
         </div>

@@ -8,6 +8,8 @@ import Footer from "./Footer";
 import FeedbackCard from "./FeedbackCard";
 import CTA from "./CTA";
 import Client from "./Client";
+import Business from "./Business";
+import CardDeal from "./CardDeal";
 
 export {
   Navbar,
@@ -19,5 +21,7 @@ export {
   Footer,
   FeedbackCard,
   CTA,
+  CardDeal,
   Client,
+  Business,
 };
