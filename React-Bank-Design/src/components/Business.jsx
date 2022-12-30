@@ -30,7 +30,7 @@ const Business = () =>{
             {/* Bussines text */}
             <div className={`${layout.sectionInfo} space-y-8 `}>
                 <h2 className={`${styles.heading2} `}>
-                    You do the business, <br /> we'll handle the money.
+                    You do the business, <br className="hidden sm:block" /> we'll handle the money.
                 </h2>
                 <p className={`${styles.paragraph} max-w-[580px] `}>
                     With the right credit card, you can improve your financial life by building credit, 

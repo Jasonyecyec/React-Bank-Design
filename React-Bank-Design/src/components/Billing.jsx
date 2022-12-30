@@ -34,9 +34,9 @@ const Billing = () =>{
                
                 <div className="flex justify-center  w-full flex-wrap sm:mt-10 md:pl-[148px] ss:justify-start ">
                     <img src={apple} alt="apple-play" className="w-[128px] h-[42px] object-contain
-                     mr-5 cursor pointer" />
+                     mr-5 cursor-pointer" />
                      <img src={google} alt="google-store" className="w-[128px] h-[42px] object-contain
-                     mr-5 cursor pointer" />
+                     mr-5 cursor-pointer" />
                 </div>
             </div>
         </section>

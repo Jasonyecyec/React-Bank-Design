@@ -37,15 +37,15 @@ const Hero = () => {
       </div>
 
          {/* Payment Method */}
-         <h1 className='text-white text-5xl  font-poppins font-semibold leading-[75px] w-full
-         ss:leading-[100px] ss:text-[60px]'> 
-          Payment Method
+         <h1 className='text-white text-5xl font-poppins font-semibold leading-[75px] w-full 
+         ss:leading-[100px] ss:text-[65px]'> 
+          Payment Method.
         </h1>
         
         <p className={`${styles.paragraph} mt-5 `}> 
-          Our team of experts uses a methodology to identify <br />
+          Our team of experts uses a methodology to identify <br className='hidden sm:block'/>
            the credit cards most likely to fit
-           your needs. <br />
+           your needs. <br className='hidden sm:block'/>
             We examine annual percentage rates, annual fees.
         </p>
     </div>

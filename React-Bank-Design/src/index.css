@@ -55,6 +55,10 @@
       #11101d 91.61%);
 }
 
+.bg-footer {
+  background: rgba(11, 10, 12, 0.6);
+}
+
 .bg-gray-gradient {
   background: linear-gradient(153.47deg,
       rgba(255, 255, 255, 0) -341.94%,

@@ -1,19 +1,11 @@
 import React  from "react";
 import styles  from "./style"; 
 
-// import {Stats,
-//   Business,
-//   Billing ,
-//   CardDeal,
-//   Testimonials,
-//   Clients,
-//   CTA,
-//   Footer,Navbar,Hero} from './components'
-import {Navbar,Stats,Hero,Business,Billing,CardDeal} from './components'
+
+import {Navbar,Stats,Hero,Business,Billing,CardDeal,Testimonials,Clients,CTA,Footer} from './components'
 
 const App = ()=>{
-  // document.body.style.overflowX = "hidden"
-  // console.log(document.body.style);
+
   return(
     // Body
     <div className="bg-primary w-full oveflow-hidden">
@@ -39,11 +31,13 @@ const App = ()=>{
               <Business/>
               <Billing/>
               <CardDeal/>
-              {/* <Testimonials/> */}
-              
+              <Testimonials/>
+              <Clients/>
+              <CTA/>
+     
           </div>
         </div>
-
+        <Footer/>
 
     </div>
   )

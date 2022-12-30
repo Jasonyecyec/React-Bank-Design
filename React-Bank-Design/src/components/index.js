@@ -7,7 +7,7 @@ import GetStarted from "./GetStarted";
 import Footer from "./Footer";
 import FeedbackCard from "./FeedbackCard";
 import CTA from "./CTA";
-import Client from "./Client";
+import Clients from "./Clients";
 import Business from "./Business";
 import CardDeal from "./CardDeal";
 
@@ -22,6 +22,6 @@ export {
   FeedbackCard,
   CTA,
   CardDeal,
-  Client,
+  Clients,
   Business,
 };

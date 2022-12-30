@@ -1,6 +1,7 @@
 import {useState} from 'react'
 import {close, logo,menu} from '../assets'
 import {navLinks} from '../constants'
+import styles from '../style'
 
 const Navbar = () => {
 
@@ -14,8 +15,8 @@ const Navbar = () => {
       </div>  
 
       {/* links */}
-      <ul className='hidden list-none flex justify-end items-center flex-1 text-white space-x-8
-    sm:flex lg:space-x-12'>
+      <ul className={`hidden list-none flex justify-end items-center flex-1 text-white space-x-8
+    sm:flex lg:space-x-12 ${styles.paragraph}`}>
       {navLinks.map((nav,index) => (
         <li key={nav.id}
             className = {`font-poppins cursor-pointer text-base font-light`}>
@@ -27,6 +28,7 @@ const Navbar = () => {
         )) }
     </ul>
 
+        {/* Mobile menu */}
       <div className='flex items-center justify-center sm:hidden '>
           <img src={toggle ? close : menu} 
           alt="menu"
